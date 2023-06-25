@@ -71,9 +71,10 @@ body {
   
   .navbar-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 10px;
+    column-gap: 2rem;
   }
   
   .navbar-link {
@@ -109,6 +110,7 @@ body {
     }
   
     .navbar-links {
+      flex-direction: column;
         width: 80%;
       display: none;
       position: absolute;
